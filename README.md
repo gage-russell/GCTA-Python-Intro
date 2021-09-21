@@ -5,7 +5,7 @@ After the first week of class (installation/setup/intro), please come to class w
 Windows instructions:
 1. Open a command prompt (cmd)
 2. Navigate to %USERPROFILE\github\GCTA-Python-Intro\
-    a. cd .\github\GCTA-Python-Intro 
+    a) cd .\github\GCTA-Python-Intro 
 4. Make sure you have the latest changes
     a. git stash
     b. git pull origin master
