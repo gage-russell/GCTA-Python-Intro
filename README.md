@@ -9,9 +9,7 @@ After the first week of class (installation/setup/intro), please come to class w
     <li>Navigate to %USERPROFILE\github\GCTA-Python-Intro\</li>
     <ol>
         <li>
-            ```
-            cd .\github\GCTA-Python-Intro
-            ```
+            <b>cd .\github\GCTA-Python-Intro</b>
         </li>
     </ol>
     <li>Make sure you have the latest changes</li>
