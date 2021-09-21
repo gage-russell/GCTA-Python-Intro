@@ -8,7 +8,7 @@ After the first week of class (installation/setup/intro), please come to class w
     <li>Open a command prompt (cmd)</li>
     <li>Navigate to %USERPROFILE\github\GCTA-Python-Intro\</li>
     <ol>
-        <li>```cd .\github\GCTA-Python-Intro```</li>
+        <li>```cd .\github\GCTA-Python-Intro</li>
     </ol>
     <li>Make sure you have the latest changes</li>
     <ol>
