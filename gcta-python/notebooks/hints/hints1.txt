@@ -1,2 +1,5 @@
 
-hint 1
+# Using only the knowledge that you have been taught
+# thus far, what changes could be made to this code?
+
+# How do we seperate the numbers of a date?
