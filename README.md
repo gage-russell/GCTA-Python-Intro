@@ -1,24 +1,26 @@
 # GCTA-Python-Intro
-Most of the course curriculum can be found under the jupyter-notebooks directory.
-<br>
-After the first week of class (installation/setup/intro), please come to class with jupyter notebook running from within the jupyter-notebooks directory.
+Most course curriculum can be found under the ````gcta-python```` directory.
+<br><br>
+After the first week of class (installation/setup/intro), please come to class with Jupyter Notebook running from within the ````gcta-python```` directory.
 
 ### Windows instructions:
-1. Open a command prompt (cmd)
-2. Navigate to %USERPROFILE\github\GCTA-Python-Intro\
+1. Open a command prompt ([Windows Key+R; type: cmd; press Enter](https://www.groovypost.com/howto/howto/use-windows-key-r-run-as-administrator/))
+2. Navigate to the correct installation location
+    - ```cd .\GCTA-Python-Intro```
     - ```cd .\github\GCTA-Python-Intro```
-3. Make sure you have the latest changes
+4. Make sure you have the latest changes
     - ```git stash```
     - ```git pull origin master```
-4. Navigate to the jupyter-notebooks directory
+5. Navigate to the jupyter-notebooks directory
     - ```cd .\jupyter-notebooks```
-5. Activate your virtual environment
+6. Activate your virtual environment
     - ```.\venv\Scripts\activate```
-6. Start jupyter notebook
+7. Start jupyter notebook
     - ```jupyter notebook```
 ### Mac Instructions
-1. Open a terminal
-2. Navigate to ~/github/GCTA-Python-Intro/
+1. Open a terminal ([Mac instructions](https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac))
+2. Navigate to the correct installation location
+    - ```cd ./GCTA-Python-Intro```
     - ```cd ./github/GCTA-Python-Intro```
 3. Make sure you have the latest changes
     - ```git stash```
@@ -30,3 +32,5 @@ After the first week of class (installation/setup/intro), please come to class w
 6. Start jupyter notebook
     - ```jupyter notebook```
 
+
+**Note**: GitHub does not render .ipynb files correctly. Use either an instance of Jupyter Notebook, or https://nbviewer.org/.
