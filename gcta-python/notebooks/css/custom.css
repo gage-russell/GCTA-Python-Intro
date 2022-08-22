@@ -1,0 +1,68 @@
+/* body {
+    
+} */
+
+
+.title {
+    font-size: 4em !important;
+    text-align: left !important;
+    /* font-weight: bold !important; */
+}
+
+.center {
+    text-align: center !important;
+}
+
+
+/* override cell formatting*/
+div.text_cell_render {
+    /* background-color:Tomato !important; */
+    font-family: Geneva, Tahoma, Verdana, sans-serif !important;
+    font-size: 16px !important;
+}
+
+/* code summary under headers */
+code.subhead {
+    font-size: 18px !important;
+}
+
+table.default_table {
+    font-family: Consolas, monaco, monospace !important;
+    font-size: 18px !important;
+    margin-left: 0 !important;
+    
+}
+
+/* header color */
+tr.header {
+    background: #e6e6e6 !important;
+}
+
+
+
+/* striped table */
+tr:nth-child(odd):not(:nth-child(0)) {
+    background-color: #f2f2f2;
+}
+
+/* match code blocks */
+tr:nth-child(even):not(:nth-child(0)) code {
+    background-color: inherit !important
+}
+
+/* match code blocks */
+tr:nth-child(odd) code {
+    background-color: inherit !important
+}
+
+/* match code hover color */
+table tr:hover code {
+    /* background-color: inherit !important /* background-color: rgba(66, 165, 245, 0.2) !important;  /* hardcoded default */ 
+}
+
+/* default override to fix hover coloring issue */
+code {
+    padding: 0px;
+}
+
+
