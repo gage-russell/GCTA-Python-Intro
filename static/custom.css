@@ -2,11 +2,19 @@
     
 } */
 
+
+h2 {color: inherit}
+h3 {color: inherit}
+h4 {color: red}
+h5 {color: red}
+h6 {color: red}
+
 /* override cell formatting*/
 div.text_cell_render {
     /* background-color:Tomato !important; */
     font-family: Geneva, Tahoma, Verdana, sans-serif !important;
-    font-size: 14px !important;
+    font-size: 16px !important;
+    font-weight: normal !important;
 }
 
 
@@ -20,6 +28,9 @@ div.text_cell_render {
     text-align: center !important;
 }
 
+.tab {
+    padding-left: 4em;
+}
 
 /* code summary under headers */
 code.subhead {
@@ -55,6 +66,8 @@ tr:nth-child(odd) code {
     background-color: inherit !important
 }
 
+
+
 /* match code hover color */
 table tr:hover code {
     /* background-color: inherit !important /* background-color: rgba(66, 165, 245, 0.2) !important;  /* hardcoded default */ 
@@ -62,7 +75,7 @@ table tr:hover code {
 
 /* default override to fix hover coloring issue */
 code {
-    padding: 0px;
+/*     padding: 0px; */
 }
 
 
