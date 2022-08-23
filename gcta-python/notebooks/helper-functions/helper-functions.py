@@ -1,4 +1,5 @@
 # identify data type with its name as a string
+# ('BasicDataTypes...')
 def id_data_type(id_this: any, data_type: str) -> bool | tuple:
     try:
         type_object = type(id_this)
@@ -10,7 +11,8 @@ def id_data_type(id_this: any, data_type: str) -> bool | tuple:
     return clean_id == data_type
 
 
-# List comparison operators in a string, separated by spaces ('ComparisonOperators...')
+# List comparison operators in a string, separated by spaces
+# ('ComparisonOperators...')
 def comparison_operator_check(operators: str) -> bool:
     operator_list = "== != > < >= <=".split(' ')
     # remove spaces
