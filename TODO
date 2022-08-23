@@ -1,3 +1,11 @@
+* sort folder
+
+* review for deletion folder
+
+* consider merging /gcta-python/activities/data-activities with /gcta-python/activities
+
+---
+
 * Break up IntroToForLoopsAndIfStatements
     * we put this in both places because we wanted to separate loops and conditionals
         * conditional-statements
@@ -6,3 +14,4 @@
 * organize notebooks/practice into excercise folder underneath modulated folders
 
 * organize the activities folders / cleanup
+
