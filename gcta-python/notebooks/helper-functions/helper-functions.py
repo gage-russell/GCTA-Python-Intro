@@ -1,12 +1,5 @@
-
-# identify data types ('BasicDataTypes...')
-def id_data_type(id_this: any, data_type: any) -> str | tuple:
-    """
-
-    :param data_type: 
-    :param id_this:
-    :return:
-    """
+# identify data type with its name as a string
+def id_data_type(id_this: any, data_type: str) -> bool | tuple:
     try:
         type_object = type(id_this)
     except Exception as exc:
@@ -35,10 +28,6 @@ def comparison_operator_check(operators: str) -> bool:
             return False
 
     return True
-
-
-
-
 
 
 print("Helper functions successfully loaded!")
