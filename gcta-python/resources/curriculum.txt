@@ -1,22 +1,29 @@
 curriculum 1.2
 
+# ---------- intro  ---------- #
+
+TODO: refactor
+
 computational thinking
 
 problem solving
     pseudocode
     complexity reduction
 
+first solve for correctness
+
 comments
 
-escape char \
+naming conventions
 
-first solve for correctness
 
 IDEs:
     PyCharm
     Visual Studio Code
 
-naming conventions
+escape char \  # todo: move
+
+indentation  # todo: move
 
 
 # ---------- data types ---------- #
